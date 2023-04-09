@@ -74,7 +74,7 @@ public class ShopInfoActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     * URLで検索するボタンが押された時の処理
      * @param view
      */
     public void onUrlSearchButtonClick(View view){
@@ -85,6 +85,10 @@ public class ShopInfoActivity extends AppCompatActivity {
         startActivity(intent2);
     }
 
+    /**
+     * マップで開くボタンが押された時の処理
+     * @param view
+     */
     public void onMapSearchButtonClick(View view){
         Intent intent = getIntent();
         double latitude = Double.parseDouble(intent.getStringExtra("lat"));
@@ -95,6 +99,11 @@ public class ShopInfoActivity extends AppCompatActivity {
         startActivity(intent2);
     }
 
+    /**
+     * 画像を表示するためにURLからロードしてくる処理
+     * @param imageUrl
+     * @param imageView
+     */
     public void setImageUrl(String imageUrl, ImageView imageView){
         Picasso.get().load(imageUrl).into(imageView);
     }

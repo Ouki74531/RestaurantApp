@@ -328,6 +328,13 @@ public class SearchResultActivity extends AppCompatActivity {
             this.shopImageUrls = shopImageUrls;
         }
 
+        /**
+         * リストビューのレイアウトを設定する処理
+         * @param position
+         * @param convertView
+         * @param parent
+         * @return
+         */
         @NonNull
         @Override
         public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
