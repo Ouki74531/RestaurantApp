@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">レストラン検索アプリ</string>
+    <string name="app_name">グルメマッチング</string>
     <string name="tv_keyword">キーワード：</string>
     <string name="et_keyword_hint" >キーワードを入力してください</string>
     <string name="tv_range">検索範囲：</string>
