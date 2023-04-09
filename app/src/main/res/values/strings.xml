@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">レストラン検索アプリ</string>
+    <string name="tv_keyword">キーワード：</string>
+    <string name="et_keyword_hint" >キーワードを入力してください</string>
+    <string name="tv_range">検索範囲：</string>
+    <string name="rg_300">300m</string>
+    <string name="rg_500">500m</string>
+    <string name="rg_1000">1000m</string>
+    <string name="rg_2000">2000m</string>
+    <string name="rg_3000">3000m</string>
+    <string name="bt_search">検索する</string>
+    <string name="tv_name">店舗名</string>
+    <string name="tv_address">住所:</string>
+    <string name="tv_access">アクセス:</string>
+    <string name="tv_open">営業時間:</string>
+    <string name="tv_station">最寄駅:</string>
+    <string name="tv_url">店舗URL:</string>
+    <string name="bt_url">URLにアクセスする</string>
+    <string name="bt_map">マップで開く</string>
+    <string name="tv_midnight">深夜営業:</string>
+    <string name="tv_wifi">wifiの有無:</string>
+</resources>
