@@ -95,18 +95,6 @@ public class SearchResultActivity extends AppCompatActivity {
         lvShopList.setOnItemClickListener(new ListItemClickListener());
     }
 
-    /**
-     * どのアクションバーを利用するのか
-     * @param menu
-     * @return
-     */
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_search_result_activity, menu);
-        return true;
-    }
 
     /**
      * オプションメニューのアイテムをクリックされたときの処理
